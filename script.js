@@ -7,7 +7,7 @@ document.getElementById('applicationForm').addEventListener('submit', function(e
     const experience = document.getElementById('experience').value;
     const promise = document.getElementById('promise').value;
 
-    const webhookURL = 'YOUR_DISCORD_WEBHOOK_URL'; // Replace with your Discord webhook URL
+    const webhookURL = 'https://discord.com/api/webhooks/1336766773038547035/UNkxQGY6_hcPjMWZRBpEtpjSdY5R4kO73WZj6J1a6pAXHty1y4k-Ovjv_04ugSekrqLZ'; // Replace with your Discord webhook URL
 
     const data = {
         embeds: [{
